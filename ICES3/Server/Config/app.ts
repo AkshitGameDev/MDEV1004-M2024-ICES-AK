@@ -4,10 +4,24 @@ import path from 'path';
 import cookieParser from 'cookie-parser';
 import logger from 'morgan';
 import dotenv from 'dotenv';
-import indexRouter from '../Routs/index';
 
 dotenv.config();
- 
+
+// import mongoose and related modules
+import mongoose from 'mongoose';
+import db from './db';
+
+mongoose.connect(db.remoteURI);
+
+// DB Connection Events
+mongoose.connection.on('connected', () => {
+  console.log(`Connected to MongoDB Atlas`);
+})
+
+
+import indexRouter from '../Routes/index';
+import { dot } from 'node:test/reporters';
+
 // create an express application
 const app = express();
 
@@ -15,9 +29,8 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, '../../Client')));
 
-app.use('/', indexRouter);
+app.use('/api', indexRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -33,7 +46,7 @@ app.use(function(err: HttpError, req:Request, res:Response, next:NextFunction)
 
   // render the error page
   res.status(err.status || 500);
-  res.render('error');
+  res.end('error - please use /api as a route prefix for your API requests');
 });
 
 export default app;
