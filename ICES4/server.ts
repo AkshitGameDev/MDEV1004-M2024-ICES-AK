@@ -1,9 +1,3 @@
-#!/usr/bin/env node
-
-/**
- * Module dependencies.
- */
-
 import app from './Server/Config/app';
 import debug from 'debug';
 debug('ice4:server');
@@ -11,30 +5,13 @@ import http from 'http';
 import { HttpError } from 'http-errors';
 import { AddressInfo } from 'net';
 
-/**
- * Get port from environment and store in Express.
- */
-
 let port = normalizePort(process.env.PORT || '3000');
 app.set('port', port);
 
-/**
- * Create HTTP server.
- */
-
 const server = http.createServer(app);
-
-/**
- * Listen on provided port, on all network interfaces.
- */
-
 server.listen(port);
 server.on('error', onError);
 server.on('listening', onListening);
-
-/**
- * Normalize a port into a number, string, or false.
- */
 
 function normalizePort(val:string) : string | number | boolean
 {
@@ -42,22 +19,16 @@ function normalizePort(val:string) : string | number | boolean
 
   if (isNaN(port)) 
   {
-    // named pipe
     return val;
   }
 
   if (port >= 0) 
   {
-    // port number
     return port;
   }
 
   return false;
 }
-
-/**
- * Event listener for HTTP server "error" event.
- */
 
 function onError(error:HttpError): void 
 {
@@ -69,9 +40,7 @@ function onError(error:HttpError): void
   let bind = typeof port === 'string'
     ? 'Pipe ' + port
     : 'Port ' + port;
-
-  // handle specific listen errors with friendly messages
-  switch (error.code) 
+switch (error.code) 
   {
     case 'EACCES':
       console.error(bind + ' requires elevated privileges');
@@ -86,9 +55,6 @@ function onError(error:HttpError): void
   }
 }
 
-/**
- * Event listener for HTTP server "listening" event.
- */
 
 function onListening(): void 
 {

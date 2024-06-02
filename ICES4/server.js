@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+
 "use strict";
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
@@ -51,4 +51,3 @@ function onListening() {
         : 'port ' + addr.port;
     (0, debug_1.default)('Listening on ' + bind);
 }
-//# sourceMappingURL=server.js.map

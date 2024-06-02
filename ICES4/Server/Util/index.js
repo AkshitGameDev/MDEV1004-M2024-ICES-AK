@@ -10,4 +10,3 @@ function SanitizeArray(inputString) {
     return sanitizedArray;
 }
 exports.SanitizeArray = SanitizeArray;
-//# sourceMappingURL=index.js.map

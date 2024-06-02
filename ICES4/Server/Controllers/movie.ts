@@ -3,14 +3,12 @@ import { Request, Response, NextFunction } from 'express';
 import Movie from '../Models/movie';
 import { SanitizeArray } from '../Util';
 
-/**
- * This function displays the movie list in JSON format
- *
+/
  * @export
  * @param {Request} req
  * @param {Response} res
  * @param {NextFunction} next
- */
+ *
 export function DisplayMovieList(req: Request, res: Response, next: NextFunction): void
 {
     Movie.find({})

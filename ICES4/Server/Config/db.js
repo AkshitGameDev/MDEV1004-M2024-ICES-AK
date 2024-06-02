@@ -4,4 +4,3 @@ let remoteURI = (process.env.MONGO_URI);
 exports.default = {
     remoteURI: remoteURI,
 };
-//# sourceMappingURL=db.js.map

@@ -17,4 +17,3 @@ let movieSchema = new mongoose_1.Schema({
 });
 let Movie = (0, mongoose_1.model)('Movie', movieSchema);
 exports.default = Movie;
-//# sourceMappingURL=movie.js.map
