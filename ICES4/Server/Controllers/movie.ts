@@ -3,12 +3,12 @@ import { Request, Response, NextFunction } from 'express';
 import Movie from '../Models/movie';
 import { SanitizeArray } from '../Util';
 
-/
+/**
  * @export
  * @param {Request} req
  * @param {Response} res
  * @param {NextFunction} next
- *
+ */
 export function DisplayMovieList(req: Request, res: Response, next: NextFunction): void
 {
     Movie.find({})
@@ -23,8 +23,6 @@ export function DisplayMovieList(req: Request, res: Response, next: NextFunction
 }
 
 /**
- * This function displays a single movie by ID in JSON format
- *
  * @export
  * @param {Request} req
  * @param {Response} res
@@ -32,10 +30,8 @@ export function DisplayMovieList(req: Request, res: Response, next: NextFunction
  */
 export function DisplayMovieById(req: Request, res: Response, next: NextFunction) : void
 {
-    // endpoint should be /api/:id
     let id = req.params.id;
 
-    // ensure that the id is valid
     if (id.length != 24)
     {
         res.status(400).json({success: false, msg: "A valid ID is required to retrive a movie", data: ""});
@@ -62,8 +58,6 @@ export function DisplayMovieById(req: Request, res: Response, next: NextFunction
 }
 
 /**
- * This function adds a movie to the database
- *
  * @export
  * @param {Request} req
  * @param {Response} res
@@ -103,8 +97,6 @@ export function AddMovie(req: Request, res:Response, next: NextFunction): void
 }
 
 /**
- * This function updates a movie in the database
- *
  * @export
  * @param {Request} req
  * @param {Response} res
@@ -112,10 +104,8 @@ export function AddMovie(req: Request, res:Response, next: NextFunction): void
  */
 export function UpdateMovie(req:Request, res:Response, next:NextFunction): void
 {
-    // endpoint should be /api/update/:id
     let id = req.params.id;
 
-    // ensure that the id is valid
     if (id.length != 24)
     {
         res.status(400).json({success: false, msg: "A valid ID is required to update a movie", data: ""});
@@ -156,8 +146,6 @@ export function UpdateMovie(req:Request, res:Response, next:NextFunction): void
 }
 
 /**
- * This function deletes a movie from the database
- *
  * @export
  * @param {Request} req
  * @param {Response} res
@@ -165,10 +153,8 @@ export function UpdateMovie(req:Request, res:Response, next:NextFunction): void
  */
 export function DeleteMovie(req:Request, res:Response, next:NextFunction): void
 {
-    // endpoint should be /api/delete/:id
     let id = req.params.id;
 
-    // ensure that the id is valid
     if (id.length != 24)
     {
         res.status(400).json({success: false, msg: "A valid ID is required to delete a movie", data: ""});

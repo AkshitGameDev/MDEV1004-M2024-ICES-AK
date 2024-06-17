@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "express-session": "^1.18.0"
+  }
+}
