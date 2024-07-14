@@ -3,6 +3,16 @@ plugins {
     alias(libs.plugins.jetbrains.kotlin.android)
 }
 
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath("com.android.tools.build:gradle:8.4.0")
+    }
+}
+
 android {
     namespace = "ca.georgiancollege.ice8_android"
     compileSdk = 34
@@ -21,8 +31,8 @@ android {
         release {
             isMinifyEnabled = false
             proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
+                    getDefaultProguardFile("proguard-android-optimize.txt"),
+                    "proguard-rules.pro"
             )
         }
     }
@@ -53,7 +63,6 @@ dependencies {
     implementation(libs.converter.moshi)
     implementation(libs.logging.interceptor)
     implementation(libs.moshi.kotlin)
-
 
     // testing Dependencies
     testImplementation(libs.junit)
