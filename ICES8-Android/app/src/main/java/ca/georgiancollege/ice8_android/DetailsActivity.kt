@@ -3,7 +3,7 @@ package ca.georgiancollege.ice8_android
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
-import ca.georgiancollege.ice8_android.databinding.ActivityDetailsBinding
+import com.example.ice8_android.databinding.ActivityDetailsBinding
 
 class DetailsActivity : AppCompatActivity()
 {

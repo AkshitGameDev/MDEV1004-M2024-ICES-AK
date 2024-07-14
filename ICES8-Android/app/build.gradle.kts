@@ -3,23 +3,13 @@ plugins {
     alias(libs.plugins.jetbrains.kotlin.android)
 }
 
-buildscript {
-    repositories {
-        google()
-        mavenCentral()
-    }
-    dependencies {
-        classpath("com.android.tools.build:gradle:8.4.0")
-    }
-}
-
 android {
-    namespace = "ca.georgiancollege.ice8_android"
+    namespace = "com.example.ice8_android"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "ca.georgiancollege.ice8_android"
-        minSdk = 24
+        applicationId = "com.example.ice8_android"
+        minSdk = 26
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -28,16 +18,18 @@ android {
     }
 
     buildTypes {
+
         release {
             isMinifyEnabled = false
             proguardFiles(
-                    getDefaultProguardFile("proguard-android-optimize.txt"),
-                    "proguard-rules.pro"
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
             )
         }
     }
 
     buildFeatures {
+        dataBinding = true
         viewBinding = true
     }
 
@@ -51,7 +43,8 @@ android {
 }
 
 dependencies {
-    // core Dependencies
+
+//core dependencies
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
@@ -60,11 +53,11 @@ dependencies {
 
     // retrofit and moshi
     implementation(libs.retrofit)
+    implementation (libs.moshi.kotlin)
     implementation(libs.converter.moshi)
-    implementation(libs.logging.interceptor)
-    implementation(libs.moshi.kotlin)
+    implementation (libs.logging.interceptor)
 
-    // testing Dependencies
+    //test dependencies
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

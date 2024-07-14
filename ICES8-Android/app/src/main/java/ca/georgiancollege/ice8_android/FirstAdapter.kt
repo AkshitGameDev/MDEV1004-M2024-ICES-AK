@@ -5,7 +5,9 @@ import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import ca.georgiancollege.ice8_android.databinding.TextRowItemBinding
+import com.example.ice8_android.R
+import com.example.ice8_android.databinding.TextRowItemBinding
+
 
 class FirstAdapter(private var dataSet: List<Movie>) :
 RecyclerView.Adapter<FirstAdapter.ViewHolder>()
