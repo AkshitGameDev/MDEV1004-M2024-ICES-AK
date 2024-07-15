@@ -1,4 +1,4 @@
-package ca.georgiancollege.ice8_android
+package com.example.ice8_android
 
 import retrofit2.Call
 import retrofit2.http.*

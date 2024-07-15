@@ -1,4 +1,4 @@
-package ca.georgiancollege.ice8_android
+package com.example.ice8_android
 
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
@@ -11,7 +11,7 @@ class DataManager private constructor()
 {
     companion object
     {
-        private const val BASE_URL = ""
+        private const val BASE_URL = "https://mdev1004-ices-api-8zdc.onrender.com/api/movie/list"
 
         // converts JSON to Data we can use
         private val moshi: Moshi by lazy {

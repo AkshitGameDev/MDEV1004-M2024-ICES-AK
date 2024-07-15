@@ -1,4 +1,4 @@
-package ca.georgiancollege.ice8_android
+package com.example.ice8_android
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

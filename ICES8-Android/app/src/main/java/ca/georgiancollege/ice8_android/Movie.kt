@@ -1,4 +1,4 @@
-package ca.georgiancollege.ice8_android
+package com.example.ice8_android
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
