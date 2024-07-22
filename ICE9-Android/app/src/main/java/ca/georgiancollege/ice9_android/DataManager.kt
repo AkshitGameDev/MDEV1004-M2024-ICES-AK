@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit
 /* Singleton */
 class DataManager private constructor(private val context: Context)
 {
-    private val BASE_URL = "https://mdev1004-m2024-api-q9bi.onrender.com/api/"
+    private val BASE_URL = "https://mdev1004-ices-api-8zdc.onrender.com/api/"
     private val sharedPreferences = context.getSharedPreferences("MySharedPreferences", Context.MODE_PRIVATE)
 
     // converts JSON to Data we can use
