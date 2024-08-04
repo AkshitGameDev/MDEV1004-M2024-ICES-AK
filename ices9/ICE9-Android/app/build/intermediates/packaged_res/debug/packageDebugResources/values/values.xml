@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="blue">#0000FF</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="actors">Actors</string>
+    <string name="app_name">ICE9-Android</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="cancel">Cancel</string>
+    <string name="critics_rating">Critics Rating</string>
+    <string name="delete_movie">Delete Movie</string>
+    <string name="description">Short Description</string>
+    <string name="directors">Directors</string>
+    <string name="edit_movie">Edit Movie</string>
+    <string name="favourite_movies">Favourite Movies</string>
+    <string name="genres">Genres</string>
+    <string name="length">Length</string>
+    <string name="movieid">Movie ID</string>
+    <string name="mpa_rating">MPA Rating</string>
+    <string name="ok">Ok</string>
+    <string name="studio">Studio</string>
+    <string name="title">Title</string>
+    <string name="writers">Writers</string>
+    <string name="year">Year</string>
+    <style name="Base.Theme.ICE9Android" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.ICE9Android" parent="Base.Theme.ICE9Android"/>
+</resources>

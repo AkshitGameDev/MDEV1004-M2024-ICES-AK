@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "ca.georgiancollege.ice9_android.app-debug-4:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "ca.georgiancollege.ice9_android.app-main-6:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "ca.georgiancollege.ice9_android.app-debug-4:/drawable_background_green.xml.flat",
+        "source": "ca.georgiancollege.ice9_android.app-main-6:/drawable/background_green.xml"
+    },
+    {
+        "merged": "ca.georgiancollege.ice9_android.app-debug-4:/drawable_baseline_logout_24.xml.flat",
+        "source": "ca.georgiancollege.ice9_android.app-main-6:/drawable/baseline_logout_24.xml"
+    },
+    {
+        "merged": "ca.georgiancollege.ice9_android.app-debug-4:/drawable_textview_border.xml.flat",
+        "source": "ca.georgiancollege.ice9_android.app-main-6:/drawable/textview_border.xml"
+    },
+    {
+        "merged": "ca.georgiancollege.ice9_android.app-debug-4:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "ca.georgiancollege.ice9_android.app-main-6:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "ca.georgiancollege.ice9_android.app-debug-4:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "ca.georgiancollege.ice9_android.app-main-6:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "ca.georgiancollege.ice9_android.app-debug-4:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "ca.georgiancollege.ice9_android.app-main-6:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "ca.georgiancollege.ice9_android.app-debug-4:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "ca.georgiancollege.ice9_android.app-main-6:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "ca.georgiancollege.ice9_android.app-debug-4:/layout_activity_login.xml.flat",
+        "source": "ca.georgiancollege.ice9_android.app-main-6:/layout/activity_login.xml"
+    },
+    {
+        "merged": "ca.georgiancollege.ice9_android.app-debug-4:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "ca.georgiancollege.ice9_android.app-main-6:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "ca.georgiancollege.ice9_android.app-debug-4:/drawable_background_yellow.xml.flat",
+        "source": "ca.georgiancollege.ice9_android.app-main-6:/drawable/background_yellow.xml"
+    },
+    {
+        "merged": "ca.georgiancollege.ice9_android.app-debug-4:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "ca.georgiancollege.ice9_android.app-main-6:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "ca.georgiancollege.ice9_android.app-debug-4:/xml_data_extraction_rules.xml.flat",
+        "source": "ca.georgiancollege.ice9_android.app-main-6:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "ca.georgiancollege.ice9_android.app-debug-4:/drawable_background_red.xml.flat",
+        "source": "ca.georgiancollege.ice9_android.app-main-6:/drawable/background_red.xml"
+    },
+    {
+        "merged": "ca.georgiancollege.ice9_android.app-debug-4:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "ca.georgiancollege.ice9_android.app-main-6:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "ca.georgiancollege.ice9_android.app-debug-4:/layout_activity_details.xml.flat",
+        "source": "ca.georgiancollege.ice9_android.app-main-6:/layout/activity_details.xml"
+    },
+    {
+        "merged": "ca.georgiancollege.ice9_android.app-debug-4:/layout_activity_main.xml.flat",
+        "source": "ca.georgiancollege.ice9_android.app-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "ca.georgiancollege.ice9_android.app-debug-4:/xml_backup_rules.xml.flat",
+        "source": "ca.georgiancollege.ice9_android.app-main-6:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "ca.georgiancollege.ice9_android.app-debug-4:/layout_text_row_item.xml.flat",
+        "source": "ca.georgiancollege.ice9_android.app-main-6:/layout/text_row_item.xml"
+    },
+    {
+        "merged": "ca.georgiancollege.ice9_android.app-debug-4:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "ca.georgiancollege.ice9_android.app-main-6:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "ca.georgiancollege.ice9_android.app-debug-4:/layout_activity_register.xml.flat",
+        "source": "ca.georgiancollege.ice9_android.app-main-6:/layout/activity_register.xml"
+    },
+    {
+        "merged": "ca.georgiancollege.ice9_android.app-debug-4:/drawable_ic_launcher_background.xml.flat",
+        "source": "ca.georgiancollege.ice9_android.app-main-6:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "ca.georgiancollege.ice9_android.app-debug-4:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "ca.georgiancollege.ice9_android.app-main-6:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "ca.georgiancollege.ice9_android.app-debug-4:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "ca.georgiancollege.ice9_android.app-main-6:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "ca.georgiancollege.ice9_android.app-debug-4:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "ca.georgiancollege.ice9_android.app-main-6:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "ca.georgiancollege.ice9_android.app-debug-4:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "ca.georgiancollege.ice9_android.app-main-6:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "ca.georgiancollege.ice9_android.app-debug-4:/drawable_background_gray.xml.flat",
+        "source": "ca.georgiancollege.ice9_android.app-main-6:/drawable/background_gray.xml"
+    }
+]
